@@ -9,7 +9,7 @@ Feature: I would like to edit room
     And I go to "/admin/room"
     Then I should not see "<name>"
     And I follow "Create a new entry"
-    Then I should see "Department creation"
+    Then I should see "Room creation"
     When I fill in "Name" with "<name>"
     And I press "Create"
     Then I should see "<name>"
