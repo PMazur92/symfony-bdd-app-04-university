@@ -57,7 +57,7 @@ Feature: I would like to edit department
     Then I should not see "<name>"
 
   Examples:
-    |  surname                         |
+    |  name                            |
     | DEPARTMENT RECORD Informatics    |
     | DEPARTMENT RECORD Physics        |
     | NEW DEPARTMENT RECORD Chemistry  |
